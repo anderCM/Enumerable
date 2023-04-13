@@ -13,8 +13,8 @@ class MyList
 end
 
 new_list = MyList.new([1, 2, 3, 4])
-print new_list.all? {|e| e < 5}
-print new_list.all? {|e| e > 5}
-print new_list.any? {|e| e == 2}
-print new_list.any? {|e| e == 5}
-#print new_listfilter {|e| e.even?}
+puts(new_list.all? { |e| e < 5 })
+puts(new_list.all? { |e| e > 5 })
+puts(new_list.any? { |e| e == 2 })
+puts(new_list.any? { |e| e == 5 })
+# print new_listfilter {|e| e.even?}
