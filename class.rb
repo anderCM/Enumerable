@@ -17,4 +17,4 @@ puts(new_list.all? { |e| e < 5 })
 puts(new_list.all? { |e| e > 5 })
 puts(new_list.any? { |e| e == 2 })
 puts(new_list.any? { |e| e == 5 })
-# print new_listfilter {|e| e.even?}
+print new_list.filter(&:even?)
